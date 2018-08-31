@@ -8,12 +8,12 @@ The requirements below are broken into separate **tiers**, which model the way w
 
 #### Backend
 
-- [ ] Write a `campuses` model with the following information:
+- [ x] Write a `campuses` model with the following information:
   - [ ] name - not empty or null
   - [ ] imageUrl - with a default value
   - [ ] address - not empty or null
   - [ ] description - extremely large text
-- [ ] Write a `students` model with the following information:
+- [ x] Write a `students` model with the following information:
   - [ ] firstName - not empty or null
   - [ ] lastName - not empty or null
   - [ ] email - not empty or null; must be a valid email
@@ -31,7 +31,7 @@ The requirements below are broken into separate **tiers**, which model the way w
 - [ ] Write a component to display a list of all students (just their names)
 - [ ] Display the all-campuses component when the url matches `/campuses`
 - [ ] Display the all-students component when the url matches `/students`
-- [ ] Add a links to the navbar that can be used to navigate to the all-campuses view and the all-students view
+- [ ] Add a links to the navbar that can be used to navigate to the all-campuses view and the all-students view ??
 
 Congrats! You have completed your first vertical slice! Make sure to `commit -m "Feature: Get All Campuses and Students"` before moving on (see `RUBRIC.md` - points are awarded/deducted for a proper git workflow)!
 
