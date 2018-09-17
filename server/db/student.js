@@ -12,7 +12,7 @@ const Student = db.define('student', {
     allowNull: false
   },
   email: {
-    type: Sequelize.email,
+    type: Sequelize.STRING,
     allowNull: false
   },
   imageUrl: {

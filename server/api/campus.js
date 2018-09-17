@@ -1,9 +1,9 @@
 const router = require('express').Router();
-const Campus = require('../db');
+const {campus} = require('../db');
 
-router.get('/campus', async (req, res, next) => {
+router.get('/', async (req, res, next) => {
   try {
-    const campuses = await Campus.findAll();
+    const campuses = await campus.findAll();
     res.json(campuses);
   } catch (err) {
     next(err);
