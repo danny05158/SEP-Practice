@@ -3,7 +3,7 @@ import axios from 'axios'
 import {combineReducers} from 'redux'
 import campusReducer from './campus'
 
-initialState = {
+let initialState = {
 
 }
 const rootReducer = (state = initialState, action) => {
