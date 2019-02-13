@@ -1,6 +1,7 @@
 'use strict'
-
 const db = require('./database')
+const Campus = require('./campus')
+const Student = require('./student')
 
 const Campus = require('./models/campus');
 const Student = require('./models/student');
@@ -17,6 +18,10 @@ const Student = require('./models/student');
 // Example:
 //
 // Puppy.belongsTo(Owner)
+// Campuses.belongTo(Students)
+//Associations
+Student.belongsTo(Campus)
+
 
 module.exports = {
   // Include your models in this exports object as well!
